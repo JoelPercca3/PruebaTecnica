@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Entornos y configuraciones sensibles
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
+
+# Archivos de compilación
+dist/
+build/
+
+# Datos temporales
+.tmp/
+.temp/
+*.swp
+
+# Otros
+coverage/
