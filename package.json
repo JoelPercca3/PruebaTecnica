@@ -1,10 +1,10 @@
 {
-  "type":"module",
+  "type": "module",
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "standard": "^17.1.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mysql2": "^3.11.4"
